@@ -1,0 +1,46 @@
+In React, components are the building blocks used to create user interfaces. They are reusable, independent pieces of code that encapsulate the logic and UI elements required to render a specific part of an application.
+
+There are two primary types of components in React:
+
+1. **Functional Components:**
+   - Functional components are JavaScript functions that accept properties (props) as arguments and return React elements.
+   - They are simpler and concise, typically used for presenting UI based on props.
+   - They do not have their own state (prior to React 16.8), lifecycle methods, or access to `this`.
+
+   Example:
+   ```jsx
+   function Welcome(props) {
+     return <h1>Hello, {props.name}!</h1>;
+   }
+   ```
+
+2. **Class Components:**
+   - Class components are ES6 classes that extend `React.Component` and have their own state and lifecycle methods.
+   - They are used when components need to have state, manage lifecycle events, and perform complex logic.
+   
+   Example:
+   ```jsx
+   class Counter extends React.Component {
+     constructor(props) {
+       super(props);
+       this.state = { count: 0 };
+     }
+
+     increment() {
+       this.setState({ count: this.state.count + 1 });
+     }
+
+     render() {
+       return (
+         <div>
+           <p>Count: {this.state.count}</p>
+           <button onClick={() => this.increment()}>Increment</button>
+         </div>
+       );
+     }
+   }
+   ```
+
+Components can be composed and nested, allowing the creation of complex UIs by combining smaller, reusable pieces. Additionally, React components can pass data to child components using props and manage their internal state (in the case of class components).
+
+Reusable components promote code reusability, maintainability, and help in building modular and scalable applications. In modern React, functional components with hooks have become more prevalent due to their simplicity and ease of use in managing state and side effects.
