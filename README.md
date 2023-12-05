@@ -1,3 +1,33 @@
+
+
+1. Reacts JSX:
+
+2. react components
+
+3. react multiple components
+
+4. handling list in Reacts
+
+5. handling events in Reacts
+
+6. handling forms in Reacts
+
+7. react component life cycle:
+
+8. table format Reacts
+
+9. Consuming Rest API with React
+
+
+9.1. Fetching the data using Fetch API
+
+9.2. Posting the data using Fetch API
+
+9.3. Editing the data using Fetch API
+
+9.4. Deleting the data using Fetch API
+
+
 Certainly! Here are some ReactJS interview questions that are commonly asked:
 
 1. **What is ReactJS?**
