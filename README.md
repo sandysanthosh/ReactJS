@@ -10,6 +10,7 @@ Learning ReactJS involves understanding various fundamental concepts and tools t
    - **Props and State:** Understand how props and state manage data in React components.
    - **Component Lifecycle:** Lifecycle methods (e.g., `componentDidMount`, `componentDidUpdate`) and their use.
 
+
 ### 3. Hooks (Introduced in React 16.8):
    - **useState:** Managing state in functional components.
    - **useEffect:** Handling side effects in functional components.
